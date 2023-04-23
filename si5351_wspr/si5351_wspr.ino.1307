@@ -34,13 +34,13 @@ tmElements_t tm;
 #define LED_PIN                13
 
 unsigned long freq, freq_band;
-char call[] = "UR5RBJ";
-char loc[] = "KO51";
+char call[] = "N0CALL";
+char loc[] = "XX00";
 uint8_t dbm = 30; // 10*log10(P,mw)
 uint8_t tx_buffer[255];
 uint8_t symbol_count;
 uint16_t tone_delay, tone_spacing;
-int32_t cal_factor = 100; // 100-200 - с TCXO; 258900 - самодельный маленький; 234200 - самодельный с фильтрами; 90680 - готовый китайский модуль на wspr;
+int32_t cal_factor = 100; // 100-200 - с TCXO; 258900 - самодельный маленький; 234200 - самодельный с фильтрами; 90680 - готовый китайский модуль
 unsigned int band = 20;
 
 void encode() {
