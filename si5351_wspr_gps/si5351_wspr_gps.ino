@@ -36,11 +36,11 @@ tmElements_t tm;
 #define LED_PIN                13
 
 unsigned int minutes = 0, seconds = 0, mseconds = 0;
-char call[] = "UR5RBJ";
-char loc[] = "KO51";
+char call[] = "N0CALL";
+char loc[] = "XX00";
 uint8_t dbm = 30; // 10*log10(P,mw)
 uint8_t tx_buffer[255];
-int32_t cal_factor = 90680; //258900 - самодельный маленький; 234200 - самодельный с фильтрами; 90680 - готовый китайский модуль на wspr;
+int32_t cal_factor = 90680; //258900 - самодельный маленький; 234200 - самодельный с фильтрами; 90680 - готовый китайский модуль
 unsigned int band = 160; //начнём с низких
 
 void encode() {
