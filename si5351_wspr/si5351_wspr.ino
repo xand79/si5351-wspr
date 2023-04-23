@@ -39,9 +39,9 @@ String s; //also
 
 #define LED_PIN                PC13
 
-char call[] = "UT4RC";
-char loc[] = "KO51ol";
-uint8_t dbm = 37;
+char call[] = "N0CALL";
+char loc[] = "XX00xx";
+uint8_t dbm = 30;
 uint8_t tx_buffer[255];
 int32_t cal_factor = 234260; //258900 - самодельный маленький; 234200 - самодельный с фильтрами; 90680 - готовый китайский модуль на wspr;
 
