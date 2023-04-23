@@ -36,8 +36,8 @@ LiquidCrystal_I2C lcd(0x27, 16, 2); //0x27 - двухстрочный 16-сим�
 #define LED_PIN                13
 
 unsigned int minutes = 1, secondsPrev = 1, seconds = 1, hours = 1;
-char call[] = "UR5RBJ";
-char loc[] = "KO51";
+char call[] = "N0CALL";
+char loc[] = "XX00";
 uint8_t dbm = 30; // 10*log10(P,mw)
 uint8_t tx_buffer[255];
 int32_t cal_factor = 90680; //258900 - самодельный маленький; 234200 - самодельный с фильтрами; 90680 - готовый китайский модуль на wspr;
